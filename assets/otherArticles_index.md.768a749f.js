@@ -1,0 +1,17 @@
+import{_ as s,o as a,c as n,U as e,x as l}from"./chunks/framework.c6ee4a63.js";const _=JSON.parse('{"title":"根据空格拆分字符串","description":"","frontmatter":{},"headers":[],"relativePath":"otherArticles/index.md","lastUpdated":null}'),o={name:"otherArticles/index.md"},t=e(`<h1 id="根据空格拆分字符串" tabindex="-1">根据空格拆分字符串 <a class="header-anchor" href="#根据空格拆分字符串" aria-label="Permalink to &quot;根据空格拆分字符串&quot;">​</a></h1><div class="language-tsx"><button title="Copy Code" class="copy"></button><span class="lang">tsx</span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#A6ACCD;"> </span><span style="color:#C792EA;">const</span><span style="color:#A6ACCD;"> str </span><span style="color:#89DDFF;">=</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">\`</span><span style="color:#C3E88D;">remote_addr：192.168.3.69:48512</span></span>
+<span class="line"><span style="color:#C3E88D;">status_code：200</span></span>
+<span class="line"><span style="color:#C3E88D;">content_type：</span></span>
+<span class="line"><span style="color:#C3E88D;">method：GET</span></span>
+<span class="line"><span style="color:#C3E88D;">proto：HTTP/1.1</span></span>
+<span class="line"><span style="color:#C3E88D;">host：192.168.3.11:9226</span></span>
+<span class="line"><span style="color:#C3E88D;">header：User-Agent：Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15Accept-Encoding：gzipbody：</span></span>
+<span class="line"><span style="color:#C3E88D;">url：/</span></span>
+<span class="line"><span style="color:#C3E88D;">user_agent：Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15</span><span style="color:#89DDFF;">\`</span></span>
+<span class="line"><span style="color:#A6ACCD;">str</span><span style="color:#89DDFF;">.</span><span style="color:#82AAFF;">split</span><span style="color:#A6ACCD;">(</span><span style="color:#89DDFF;">&#39;&#39;</span><span style="color:#A6ACCD;">)</span></span>
+<span class="line"></span></code></pre></div><p><strong>这样可得到一个数组，如果我想把他拆分成一个对象该如何实现 例如 {remote_addr:102.1.1.1}</strong></p><div class="language-jsx"><button title="Copy Code" class="copy"></button><span class="lang">jsx</span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#A6ACCD;"> </span><span style="color:#C792EA;">const</span><span style="color:#A6ACCD;"> reg  </span><span style="color:#89DDFF;">=</span><span style="color:#A6ACCD;"> \\(\\w</span><span style="color:#89DDFF;">+</span><span style="color:#A6ACCD;">):(\\S</span><span style="color:#89DDFF;">+</span><span style="color:#A6ACCD;">)\\ </span></span>
+<span class="line"><span style="color:#A6ACCD;"> str</span><span style="color:#89DDFF;">.</span><span style="color:#A6ACCD;">replace</span></span>
+<span class="line"></span></code></pre></div>`,4),p=l("iframe",{height:"300",style:{width:"100%"},scrolling:"no",title:"Untitled",src:"https://codepen.io/woskvxzd-the-animator/embed/QWYmdBq?default-tab=js%2Cresult",frameborder:"no",loading:"lazy",allowtransparency:"true",allowfullscreen:"true"},`
+  See the Pen <a href="https://codepen.io/woskvxzd-the-animator/pen/QWYmdBq">
+  Untitled</a> by 耿延 (<a href="https://codepen.io/woskvxzd-the-animator">@woskvxzd-the-animator</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+`,-1),c=[t,p];function r(i,d,C,y,D,h){return a(),n("div",null,c)}const m=s(o,[["render",r]]);export{_ as __pageData,m as default};
